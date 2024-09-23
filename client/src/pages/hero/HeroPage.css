@@ -1,0 +1,72 @@
+  
+  .chapter-container {
+    transition: max-height 0.5s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .chapter-container.open {
+    max-height: 500px; /* Максимальная высота для открытых глав */
+  }
+  
+  .chapter-header {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .chapter-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chapter-image {
+    width: 40%;
+    border-radius: 10px;
+  }
+  
+  .chapter-text {
+    width: 40%;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .abilities-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .ability-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .ability-content img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .slider-btn {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .chapter-content {
+    position: relative;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
