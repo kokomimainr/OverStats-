@@ -22,10 +22,6 @@ module.exports = {
         type: Sequelize.TEXT,
         allowNull: false,
       },
-      role: {
-        type: Sequelize.BOOLEAN,
-        allowNull: false,
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
